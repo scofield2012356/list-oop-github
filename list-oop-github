@@ -1,1 +1,34 @@
-s.py
+PS C:\Users\MISS HR\OneDrive\Desktop\LIST-OOP-GITHUB> & "C:\Users\MISS HR\AppData\Local\Python\pythoncore-3.14-64\python.exe" "c:/Users/MISS HR/OneDrive/Desktop/LIST-OOP-GITHUB/list.py"
+['kaisamba', 'foday', 'sharon']
+PS C:\Users\MISS HR\OneDrive\Desktop\LIST-OOP-GITHUB> git init
+Initialized empty Git repository in C:/Users/MISS HR/OneDrive/Desktop/list-oop-github/.git/
+PS C:\Users\MISS HR\OneDrive\Desktop\LIST-OOP-GITHUB> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        list-oop-github
+        list.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\MISS HR\OneDrive\Desktop\LIST-OOP-GITHUB> git add .
+PS C:\Users\MISS HR\OneDrive\Desktop\LIST-OOP-GITHUB> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   list-oop-github
+        new file:   list.py
+
+PS C:\Users\MISS HR\OneDrive\Desktop\LIST-OOP-GITHUB> git config --global user.name "josephkambay"
+PS C:\Users\MISS HR\OneDrive\Desktop\LIST-OOP-GITHUB> git config --global user.email"kambayjoseph600@gmail.com"
+PS C:\Users\MISS HR\OneDrive\Desktop\LIST-OOP-GITHUB> git commit -m "Add basic codes on list data structure"
+[master (root-commit) 49a7140] Add basic codes on list data structure
+ 2 files changed, 40 insertions(+)
+ create mode 100644 list-oop-github
+ create mode 100644 list.py
+PS C:\Users\MISS HR\OneDrive\Desktop\LIST-OOP-GITHUB> git remote add origin https://github.com/scofield2012356/list-oop-github.git
